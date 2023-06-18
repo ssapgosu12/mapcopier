@@ -1,7 +1,7 @@
 # mapcopier
-copies map's audio, metadata, timing, etc and makes a new map.
+copies map's audio, metadata, timing, etc and makes a new empty map.
 
-press f5 then enter in osu editor mode when map is copied.
+press f5 then enter in osu editor mode to quickly access to new map.
 
 it does not copy hit objects (aka notes)
 
