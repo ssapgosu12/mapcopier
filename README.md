@@ -5,7 +5,7 @@ press f5 then enter in osu editor mode to quickly access to new map.
 
 it does not copy hit objects (aka notes)
 
-![](https://cdn.discordapp.com/attachments/915261506449469531/1120028931639214190/image.png)
+![](https://cdn.discordapp.com/attachments/712585497280512014/1120037759927717979/image.png)
 
 you can choose which data to copy
 
