@@ -240,9 +240,10 @@ class MainWindow(QWidget):
             if self.copyOriginalBG.isChecked():
                 if lines[i].startswith("0,0,\""):
                     bgline = lines[i]
-
-        print(HP, OD, AR, CS, mode, source, tags, previewTime, timingPoints, bgline, audio, title, artist, creator)
-        
+        try:
+            print(HP, OD, AR, CS, mode, source, tags, previewTime, timingPoints, bgline, audio, title, artist, creator)
+        except:
+            pass
         now = datetime.now()
         newdir = songDir+"/"+title+" - "+artist+" ("+creator+") " + now.strftime('%Y%m%d%H%M')
         if not os.path.exists(newdir):
@@ -295,7 +296,7 @@ class MainWindow(QWidget):
         newosu.write("BeatmapSetID:-1\n\n")
 
         newosu.write("[Difficulty]\n")
-        if self.copyDifficulty.isChecked:
+        if self.copyDifficulty.isChecked():
             newosu.write("HPDrainRate:" + HP + "\n")
             newosu.write("CircleSize:" + CS + "\n")
             newosu.write("OverallDifficulty:" + OD + "\n")
