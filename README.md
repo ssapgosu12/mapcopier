@@ -9,4 +9,6 @@ it does not copy hit objects (aka notes)
 
 you can choose which data to copy
 
+s-ul cant check about .exe so might have warning.
+
 [Click to Download](https://ssapgosu.s-ul.eu/6O4o7KVz)
