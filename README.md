@@ -9,4 +9,4 @@ it does not copy hit objects (aka notes)
 
 you can choose which data to copy
 
-[Click to Download](https://cdn.discordapp.com/attachments/915261506449469531/1120165264420511824/map_copier.exe)
+[Click to Download](https://ssapgosu.s-ul.eu/6O4o7KVz)
